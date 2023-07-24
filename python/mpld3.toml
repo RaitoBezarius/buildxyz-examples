@@ -1,0 +1,618 @@
+["bin/cargo"]
+decision = "provide"
+file_entry_name = "/bin/cargo"
+kind = "symlink"
+resolution = "constant"
+
+["bin/cargo".store_path]
+hash = "qiklc9rr5jg1zck0rb7vj4wn1n7yxx67"
+name = "cargo-1.67.1"
+store_dir = "/nix/store"
+
+["bin/cargo".store_path.origin]
+attr = "cargo"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/clang-tidy"]
+decision = "provide"
+file_entry_name = "/bin/clang-tidy"
+kind = "symlink"
+resolution = "constant"
+
+["bin/clang-tidy".store_path]
+hash = "n79i7dyaxhz6nyqkhk0fvisqlldw108i"
+name = "rocm-llvm-clang-tools-extra-5.4.3"
+store_dir = "/nix/store"
+
+["bin/clang-tidy".store_path.origin]
+attr = "llvmPackages_rocm.clang-tools-extra"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/cmake"]
+decision = "provide"
+file_entry_name = "/bin/cmake"
+kind = "symlink"
+resolution = "constant"
+
+["bin/cmake".store_path]
+hash = "l341npqn3j8pwqq1nqgj5cqhnfbzhphd"
+name = "cmake-3.25.1"
+store_dir = "/nix/store"
+
+["bin/cmake".store_path.origin]
+attr = "cmake"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/cmd"]
+decision = "provide"
+file_entry_name = "/bin/cmd"
+kind = "symlink"
+resolution = "constant"
+
+["bin/cmd".store_path]
+hash = "an1gmnm8phc1b5p0qrpkwxil9p4ny3hj"
+name = "pwdsafety-0.3"
+store_dir = "/nix/store"
+
+["bin/cmd".store_path.origin]
+attr = "pwdsafety"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/cscope"]
+decision = "provide"
+file_entry_name = "/bin/cscope"
+kind = "symlink"
+resolution = "constant"
+
+["bin/cscope".store_path]
+hash = "46wgil9r4wa6az0xkvi5npisyfq6sdsb"
+name = "cscope-15.9"
+store_dir = "/nix/store"
+
+["bin/cscope".store_path.origin]
+attr = "cscope"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/dlltool"]
+decision = "provide"
+file_entry_name = "/bin/dlltool"
+kind = "symlink"
+resolution = "constant"
+
+["bin/dlltool".store_path]
+hash = "2299glr8ffi953qj4d8m3kfvj7dmrpxj"
+name = "llvm-binutils-wrapper-15.0.7"
+store_dir = "/nix/store"
+
+["bin/dlltool".store_path.origin]
+attr = "llvmPackages_15.bintools"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/etags"]
+decision = "provide"
+file_entry_name = "/bin/etags"
+kind = "symlink"
+resolution = "constant"
+
+["bin/etags".store_path]
+hash = "l0np48ywa601ravm8k57h97vlm12spyj"
+name = "emacs-28.2"
+store_dir = "/nix/store"
+
+["bin/etags".store_path.origin]
+attr = "emacs"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/gfortran"]
+decision = "provide"
+file_entry_name = "/bin/gfortran"
+kind = "symlink"
+resolution = "constant"
+
+["bin/gfortran".store_path]
+hash = "y4fkkgbylpqgadgq3n50x7g614sjbrmv"
+name = "gfortran-wrapper-12.2.0"
+store_dir = "/nix/store"
+
+["bin/gfortran".store_path.origin]
+attr = "gfortran"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/hg"]
+decision = "provide"
+file_entry_name = "/bin/hg"
+kind = "symlink"
+resolution = "constant"
+
+["bin/hg".store_path]
+hash = "v2s4kbgqfd0s9b6hd8b982azdca4m3l4"
+name = "mercurial-6.3.3"
+store_dir = "/nix/store"
+
+["bin/hg".store_path.origin]
+attr = "mercurial"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/hostname"]
+decision = "provide"
+file_entry_name = "/bin/hostname"
+kind = "symlink"
+resolution = "constant"
+
+["bin/hostname".store_path]
+hash = "frsfkmk6ywb7wilhzyg2f8wczyacji86"
+name = "net-tools-2.10"
+store_dir = "/nix/store"
+
+["bin/hostname".store_path.origin]
+attr = "nettools"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/lsb_release"]
+decision = "provide"
+file_entry_name = "/bin/lsb_release"
+kind = "symlink"
+resolution = "constant"
+
+["bin/lsb_release".store_path]
+hash = "ji55v58cch94h30inpnrd5h5jra9fwd8"
+name = "lsb_release"
+store_dir = "/nix/store"
+
+["bin/lsb_release".store_path.origin]
+attr = "lsb-release"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/mt"]
+decision = "provide"
+file_entry_name = "/bin/mt"
+kind = "symlink"
+resolution = "constant"
+
+["bin/mt".store_path]
+hash = "l1h6lcg61qz3jfp5xj62pjm7qigj0vhs"
+name = "busybox-1.36.0"
+store_dir = "/nix/store"
+
+["bin/mt".store_path.origin]
+attr = "busybox"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/ninja"]
+decision = "provide"
+file_entry_name = "/bin/ninja"
+kind = "symlink"
+resolution = "constant"
+
+["bin/ninja".store_path]
+hash = "sdynpmwb7917axidiz4h73698m5drr1i"
+name = "ninja-1.11.1"
+store_dir = "/nix/store"
+
+["bin/ninja".store_path.origin]
+attr = "ninja"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/pgen"]
+decision = "ignore"
+resolution = "constant"
+
+["bin/pip"]
+decision = "provide"
+file_entry_name = "/bin/pip"
+kind = "symlink"
+resolution = "constant"
+
+["bin/pip".store_path]
+hash = "8gzj48mkr8i824a4ali025hk85gmfdzy"
+name = "python3.10-pip-22.3.1"
+store_dir = "/nix/store"
+
+["bin/pip".store_path.origin]
+attr = "python310Packages.pip"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/pkg-config"]
+decision = "provide"
+file_entry_name = "/bin/pkg-config"
+kind = "symlink"
+resolution = "constant"
+
+["bin/pkg-config".store_path]
+hash = "prm4x2r6997idyjxajapk1177jczvjfj"
+name = "pkg-config-0.29.2"
+store_dir = "/nix/store"
+
+["bin/pkg-config".store_path.origin]
+attr = "pkg-config-unwrapped"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/re2c"]
+decision = "provide"
+file_entry_name = "/bin/re2c"
+kind = "symlink"
+resolution = "constant"
+
+["bin/re2c".store_path]
+hash = "fzsirknzy51vk1k1gjdy6y9jmz4rhvjv"
+name = "re2c-3.0"
+store_dir = "/nix/store"
+
+["bin/re2c".store_path.origin]
+attr = "re2c"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/rustc"]
+decision = "provide"
+file_entry_name = "/bin/rustc"
+kind = "symlink"
+resolution = "constant"
+
+["bin/rustc".store_path]
+hash = "bxm02qp0lnm4sin3x78qrxp0gsbby1jb"
+name = "rustc-1.67.1"
+store_dir = "/nix/store"
+
+["bin/rustc".store_path.origin]
+attr = "rustc"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/scan-build"]
+decision = "provide"
+file_entry_name = "/bin/scan-build"
+kind = "symlink"
+resolution = "constant"
+
+["bin/scan-build".store_path]
+hash = "l059isv9jikgx2wbnqswws8dklyhb302"
+name = "rocm-llvm-clang-5.4.3"
+store_dir = "/nix/store"
+
+["bin/scan-build".store_path.origin]
+attr = "llvmPackages_rocm.clang-unwrapped"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/svnversion"]
+decision = "provide"
+file_entry_name = "/bin/svnversion"
+kind = "symlink"
+resolution = "constant"
+
+["bin/svnversion".store_path]
+hash = "qz3yz8b3ahcjlnk96415gy3ldk0x36zw"
+name = "subversion-1.14.2"
+store_dir = "/nix/store"
+
+["bin/svnversion".store_path.origin]
+attr = "subversion"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/valgrind"]
+decision = "provide"
+file_entry_name = "/bin/valgrind"
+kind = "symlink"
+resolution = "constant"
+
+["bin/valgrind".store_path]
+hash = "49cra3dvma54lqajbv3xnik2hwvmbvx3"
+name = "valgrind-3.20.0"
+store_dir = "/nix/store"
+
+["bin/valgrind".store_path.origin]
+attr = "valgrind-light"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["include/libunwind.h"]
+decision = "ignore"
+resolution = "constant"
+
+["include/sys"]
+decision = "ignore"
+resolution = "constant"
+
+["include/sys/endian.h"]
+decision = "ignore"
+resolution = "constant"
+
+["include/tbb"]
+decision = "ignore"
+resolution = "constant"
+
+["include/xlocale.h"]
+decision = "ignore"
+resolution = "constant"
+
+["lib/libc.a"]
+decision = "provide"
+file_entry_name = "/lib/libc.a"
+kind = "symlink"
+resolution = "constant"
+
+["lib/libc.a".store_path]
+hash = "vxlpbdlxr78lal74dva4g33z62xcj4m7"
+name = "uclibc-ng-1.0.42"
+store_dir = "/nix/store"
+
+["lib/libc.a".store_path.origin]
+attr = "uclibc"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/libgcc.a"]
+decision = "provide"
+file_entry_name = "/lib/libgcc.a"
+kind = "symlink"
+resolution = "constant"
+
+["lib/libgcc.a".store_path]
+hash = "xqx35nmbjs23clryvr3pmbzky3j90jgf"
+name = "x86_64-bionic-prebuilt-ndk-release-r23"
+store_dir = "/nix/store"
+
+["lib/libgcc.a".store_path.origin]
+attr = "bionic"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/libgcc_s.so"]
+decision = "provide"
+file_entry_name = "/lib/libgcc_s.so"
+kind = "symlink"
+resolution = "constant"
+
+["lib/libgcc_s.so".store_path]
+hash = "2w4k8nvdyiggz717ygbbxchpnxrqc6y9"
+name = "gcc-12.2.0-lib"
+store_dir = "/nix/store"
+
+["lib/libgcc_s.so".store_path.origin]
+attr = "gcc-unwrapped"
+output = "lib"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/pkgconfig/freetype2.pc"]
+decision = "provide"
+file_entry_name = "/lib/pkgconfig/freetype2.pc"
+kind = "symlink"
+resolution = "constant"
+
+["lib/pkgconfig/freetype2.pc".store_path]
+hash = "ybd7brnb5kavanvz40mg2p5pmgnczi85"
+name = "freetype-2.12.1-dev"
+store_dir = "/nix/store"
+
+["lib/pkgconfig/freetype2.pc".store_path.origin]
+attr = "freetype"
+output = "dev"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/pkgconfig/fribidi.pc"]
+decision = "provide"
+file_entry_name = "/lib/pkgconfig/fribidi.pc"
+kind = "symlink"
+resolution = "constant"
+
+["lib/pkgconfig/fribidi.pc".store_path]
+hash = "mb2kzr3caz3x59ssy9d1cn65iwg2b4zy"
+name = "fribidi-1.0.12"
+store_dir = "/nix/store"
+
+["lib/pkgconfig/fribidi.pc".store_path.origin]
+attr = "fribidi"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/pkgconfig/harfbuzz.pc"]
+decision = "provide"
+file_entry_name = "/lib/pkgconfig/harfbuzz.pc"
+kind = "symlink"
+resolution = "constant"
+
+["lib/pkgconfig/harfbuzz.pc".store_path]
+hash = "vddrjv0wnknv73njnwzj3in0467dk9qa"
+name = "harfbuzz-7.0.0-dev"
+store_dir = "/nix/store"
+
+["lib/pkgconfig/harfbuzz.pc".store_path.origin]
+attr = "harfbuzz"
+output = "dev"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/pkgconfig/lcms2.pc"]
+decision = "provide"
+file_entry_name = "/lib/pkgconfig/lcms2.pc"
+kind = "symlink"
+resolution = "constant"
+
+["lib/pkgconfig/lcms2.pc".store_path]
+hash = "h91911134qy9csmkjn7m1l3j18gxb456"
+name = "lcms2-2.13.1-dev"
+store_dir = "/nix/store"
+
+["lib/pkgconfig/lcms2.pc".store_path.origin]
+attr = "lcms2"
+output = "dev"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/pkgconfig/libffi.pc"]
+decision = "provide"
+file_entry_name = "/lib/pkgconfig/libffi.pc"
+kind = "symlink"
+resolution = "constant"
+
+["lib/pkgconfig/libffi.pc".store_path]
+hash = "4j08mgygxhi9y3957hbwqn1bg02va18y"
+name = "libffi-3.4.4-dev"
+store_dir = "/nix/store"
+
+["lib/pkgconfig/libffi.pc".store_path.origin]
+attr = "libffi"
+output = "dev"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/pkgconfig/libjpeg.pc"]
+decision = "provide"
+file_entry_name = "/lib/pkgconfig/libjpeg.pc"
+kind = "symlink"
+resolution = "constant"
+
+["lib/pkgconfig/libjpeg.pc".store_path]
+hash = "dra1y7qr8clxdssfx5s1grbg2lvg5ifd"
+name = "libjpeg-turbo-2.1.4-dev"
+store_dir = "/nix/store"
+
+["lib/pkgconfig/libjpeg.pc".store_path.origin]
+attr = "libjpeg"
+output = "dev"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/pkgconfig/libopenjp2.pc"]
+decision = "provide"
+file_entry_name = "/lib/pkgconfig/libopenjp2.pc"
+kind = "symlink"
+resolution = "constant"
+
+["lib/pkgconfig/libopenjp2.pc".store_path]
+hash = "d5ksjf6l4k66rv91mcr3c29c13d55m17"
+name = "openjpeg-2.5.0-dev"
+store_dir = "/nix/store"
+
+["lib/pkgconfig/libopenjp2.pc".store_path.origin]
+attr = "openjpeg"
+output = "dev"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/pkgconfig/libtiff-4.pc"]
+decision = "provide"
+file_entry_name = "/lib/pkgconfig/libtiff-4.pc"
+kind = "symlink"
+resolution = "constant"
+
+["lib/pkgconfig/libtiff-4.pc".store_path]
+hash = "mgv2qfkir2w084vwlk5ss6pq2x6gh7n3"
+name = "libtiff-4.5.0-dev"
+store_dir = "/nix/store"
+
+["lib/pkgconfig/libtiff-4.pc".store_path.origin]
+attr = "libtiff"
+output = "dev"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/pkgconfig/openssl.pc"]
+decision = "provide"
+file_entry_name = "/lib/pkgconfig/openssl.pc"
+kind = "symlink"
+resolution = "constant"
+
+["lib/pkgconfig/openssl.pc".store_path]
+hash = "fyiwac98bi86nd5qzz9bhvs1bvmmwgad"
+name = "openssl-3.0.8-dev"
+store_dir = "/nix/store"
+
+["lib/pkgconfig/openssl.pc".store_path.origin]
+attr = "openssl"
+output = "dev"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/pkgconfig/python-3.10.pc"]
+decision = "provide"
+file_entry_name = "/lib/pkgconfig/python-3.10.pc"
+kind = "symlink"
+resolution = "constant"
+
+["lib/pkgconfig/python-3.10.pc".store_path]
+hash = "iw1vmh509hcbby8dbpsaanbri4zsq7dj"
+name = "python3-3.10.10"
+store_dir = "/nix/store"
+
+["lib/pkgconfig/python-3.10.pc".store_path.origin]
+attr = "sourcehut.python"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/pkgconfig/zlib.pc"]
+decision = "provide"
+file_entry_name = "/lib/pkgconfig/zlib.pc"
+kind = "symlink"
+resolution = "constant"
+
+["lib/pkgconfig/zlib.pc".store_path]
+hash = "qgqsyg7gmqy3fz6shvzhcc7m7pkfw2ig"
+name = "zlib-1.2.13-dev"
+store_dir = "/nix/store"
+
+["lib/pkgconfig/zlib.pc".store_path.origin]
+attr = "zlib"
+output = "dev"
+system = "x86_64-linux"
+toplevel = true
+
+["share/aclocal/ax_zoneinfo.m4"]
+decision = "provide"
+file_entry_name = "/share/aclocal/ax_zoneinfo.m4"
+kind = "symlink"
+resolution = "constant"
+
+["share/aclocal/ax_zoneinfo.m4".store_path]
+hash = "0znwn1lw0268i7pj0rylhz9dnzbwijjn"
+name = "autoconf-archive-2022.09.03"
+store_dir = "/nix/store"
+
+["share/aclocal/ax_zoneinfo.m4".store_path.origin]
+attr = "autoconf-archive"
+output = "out"
+system = "x86_64-linux"
+toplevel = true

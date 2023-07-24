@@ -1,0 +1,584 @@
+["bin/aclocal"]
+decision = "provide"
+file_entry_name = "/bin/aclocal"
+kind = "symlink"
+resolution = "constant"
+
+["bin/aclocal".store_path]
+hash = "zpa1bp1nd91y4z5aqzpk9mqlsf3zahhc"
+name = "automake-1.16.5"
+store_dir = "/nix/store"
+
+["bin/aclocal".store_path.origin]
+attr = "automake"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/autoreconf"]
+decision = "provide"
+file_entry_name = "/bin/autoreconf"
+kind = "symlink"
+resolution = "constant"
+
+["bin/autoreconf".store_path]
+hash = "3k7a1vvzymhnq4mskxx108670h5wyib9"
+name = "autoconf-2.71"
+store_dir = "/nix/store"
+
+["bin/autoreconf".store_path.origin]
+attr = "autoconf"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/cargo"]
+decision = "provide"
+file_entry_name = "/bin/cargo"
+kind = "symlink"
+resolution = "constant"
+
+["bin/cargo".store_path]
+hash = "qiklc9rr5jg1zck0rb7vj4wn1n7yxx67"
+name = "cargo-1.67.1"
+store_dir = "/nix/store"
+
+["bin/cargo".store_path.origin]
+attr = "cargo"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/cmake"]
+decision = "provide"
+file_entry_name = "/bin/cmake"
+kind = "symlink"
+resolution = "constant"
+
+["bin/cmake".store_path]
+hash = "l341npqn3j8pwqq1nqgj5cqhnfbzhphd"
+name = "cmake-3.25.1"
+store_dir = "/nix/store"
+
+["bin/cmake".store_path.origin]
+attr = "cmake"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/dlltool"]
+decision = "provide"
+file_entry_name = "/bin/dlltool"
+kind = "symlink"
+resolution = "constant"
+
+["bin/dlltool".store_path]
+hash = "2299glr8ffi953qj4d8m3kfvj7dmrpxj"
+name = "llvm-binutils-wrapper-15.0.7"
+store_dir = "/nix/store"
+
+["bin/dlltool".store_path.origin]
+attr = "llvmPackages_15.bintools"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/gfortran"]
+decision = "provide"
+file_entry_name = "/bin/gfortran"
+kind = "symlink"
+resolution = "constant"
+
+["bin/gfortran".store_path]
+hash = "y4fkkgbylpqgadgq3n50x7g614sjbrmv"
+name = "gfortran-wrapper-12.2.0"
+store_dir = "/nix/store"
+
+["bin/gfortran".store_path.origin]
+attr = "gfortran"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/hostname"]
+decision = "provide"
+file_entry_name = "/bin/hostname"
+kind = "symlink"
+resolution = "constant"
+
+["bin/hostname".store_path]
+hash = "frsfkmk6ywb7wilhzyg2f8wczyacji86"
+name = "net-tools-2.10"
+store_dir = "/nix/store"
+
+["bin/hostname".store_path.origin]
+attr = "nettools"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/libtoolize"]
+decision = "provide"
+file_entry_name = "/bin/libtoolize"
+kind = "symlink"
+resolution = "constant"
+
+["bin/libtoolize".store_path]
+hash = "dy1zjw5q74pbxnqlm11r7va04cwsxr4f"
+name = "libtool-2.4.7"
+store_dir = "/nix/store"
+
+["bin/libtoolize".store_path.origin]
+attr = "libtool"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/lsb_release"]
+decision = "provide"
+file_entry_name = "/bin/lsb_release"
+kind = "symlink"
+resolution = "constant"
+
+["bin/lsb_release".store_path]
+hash = "ji55v58cch94h30inpnrd5h5jra9fwd8"
+name = "lsb_release"
+store_dir = "/nix/store"
+
+["bin/lsb_release".store_path.origin]
+attr = "lsb-release"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/m4"]
+decision = "provide"
+file_entry_name = "/bin/m4"
+kind = "symlink"
+resolution = "constant"
+
+["bin/m4".store_path]
+hash = "hl271ivs7lxkpfa786jx69k2sqwi0kyf"
+name = "gnum4-1.4.19"
+store_dir = "/nix/store"
+
+["bin/m4".store_path.origin]
+attr = "gnum4"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/mt"]
+decision = "provide"
+file_entry_name = "/bin/mt"
+kind = "symlink"
+resolution = "constant"
+
+["bin/mt".store_path]
+hash = "l1h6lcg61qz3jfp5xj62pjm7qigj0vhs"
+name = "busybox-1.36.0"
+store_dir = "/nix/store"
+
+["bin/mt".store_path.origin]
+attr = "busybox"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/pgen"]
+decision = "ignore"
+resolution = "constant"
+
+["bin/pip"]
+decision = "provide"
+file_entry_name = "/bin/pip"
+kind = "symlink"
+resolution = "constant"
+
+["bin/pip".store_path]
+hash = "8gzj48mkr8i824a4ali025hk85gmfdzy"
+name = "python3.10-pip-22.3.1"
+store_dir = "/nix/store"
+
+["bin/pip".store_path.origin]
+attr = "python310Packages.pip"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/pkg-config"]
+decision = "provide"
+file_entry_name = "/bin/pkg-config"
+kind = "symlink"
+resolution = "constant"
+
+["bin/pkg-config".store_path]
+hash = "prm4x2r6997idyjxajapk1177jczvjfj"
+name = "pkg-config-0.29.2"
+store_dir = "/nix/store"
+
+["bin/pkg-config".store_path.origin]
+attr = "pkg-config-unwrapped"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/rustc"]
+decision = "provide"
+file_entry_name = "/bin/rustc"
+kind = "symlink"
+resolution = "constant"
+
+["bin/rustc".store_path]
+hash = "bxm02qp0lnm4sin3x78qrxp0gsbby1jb"
+name = "rustc-1.67.1"
+store_dir = "/nix/store"
+
+["bin/rustc".store_path.origin]
+attr = "rustc"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["bin/svnversion"]
+decision = "provide"
+file_entry_name = "/bin/svnversion"
+kind = "symlink"
+resolution = "constant"
+
+["bin/svnversion".store_path]
+hash = "qz3yz8b3ahcjlnk96415gy3ldk0x36zw"
+name = "subversion-1.14.2"
+store_dir = "/nix/store"
+
+["bin/svnversion".store_path.origin]
+attr = "subversion"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["include/brotli"]
+decision = "provide"
+file_entry_name = "/include/brotli"
+kind = "directory"
+resolution = "constant"
+
+["include/brotli".store_path]
+hash = "84r63sb6w4l1y1ab3vmk3xg84is027y2"
+name = "brotli-1.0.9-dev"
+store_dir = "/nix/store"
+
+["include/brotli".store_path.origin]
+attr = "brotli"
+output = "dev"
+system = "x86_64-linux"
+toplevel = true
+
+["include/lber.h"]
+decision = "provide"
+file_entry_name = "/include/lber.h"
+kind = "symlink"
+resolution = "constant"
+
+["include/lber.h".store_path]
+hash = "vbv8j81s3q6azm92v0bnzciafi484ncg"
+name = "openldap-2.6.3-dev"
+store_dir = "/nix/store"
+
+["include/lber.h".store_path.origin]
+attr = "openldap"
+output = "dev"
+system = "x86_64-linux"
+toplevel = true
+
+["include/librtmp"]
+decision = "provide"
+file_entry_name = "/include/librtmp"
+kind = "directory"
+resolution = "constant"
+
+["include/librtmp".store_path]
+hash = "cm1nkkmi3l305hiqkqbwhkms32rii1gk"
+name = "rtmpdump-unstable-2021-02-19-dev"
+store_dir = "/nix/store"
+
+["include/librtmp".store_path.origin]
+attr = "rtmpdump"
+output = "dev"
+system = "x86_64-linux"
+toplevel = true
+
+["include/libunwind.h"]
+decision = "ignore"
+resolution = "constant"
+
+["include/sys"]
+decision = "ignore"
+resolution = "constant"
+
+["include/sys/endian.h"]
+decision = "ignore"
+resolution = "constant"
+
+["include/tbb"]
+decision = "ignore"
+resolution = "constant"
+
+["include/xlocale.h"]
+decision = "ignore"
+resolution = "constant"
+
+["include/zstd.h"]
+decision = "provide"
+file_entry_name = "/include/zstd.h"
+kind = "symlink"
+resolution = "constant"
+
+["include/zstd.h".store_path]
+hash = "s8axys9hpvwxn5718iwrnyvwms4djz96"
+name = "zstd-1.5.4-dev"
+store_dir = "/nix/store"
+
+["include/zstd.h".store_path.origin]
+attr = "zstd"
+output = "dev"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/libbrotlidec.so"]
+decision = "provide"
+file_entry_name = "/lib/libbrotlidec.so"
+kind = "symlink"
+resolution = "constant"
+
+["lib/libbrotlidec.so".store_path]
+hash = "6ahs2w409ysgvz4r0k1g0kypf6k3iwps"
+name = "brotli-1.0.9-lib"
+store_dir = "/nix/store"
+
+["lib/libbrotlidec.so".store_path.origin]
+attr = "brotli"
+output = "lib"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/libc.a"]
+decision = "provide"
+file_entry_name = "/lib/libc.a"
+kind = "symlink"
+resolution = "constant"
+
+["lib/libc.a".store_path]
+hash = "vxlpbdlxr78lal74dva4g33z62xcj4m7"
+name = "uclibc-ng-1.0.42"
+store_dir = "/nix/store"
+
+["lib/libc.a".store_path.origin]
+attr = "uclibc"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/libgsasl.so"]
+decision = "provide"
+file_entry_name = "/lib/libgsasl.so"
+kind = "symlink"
+resolution = "constant"
+
+["lib/libgsasl.so".store_path]
+hash = "igi41dvx65vvsjd238k9h9s2j34f79vr"
+name = "gsasl-2.2.0"
+store_dir = "/nix/store"
+
+["lib/libgsasl.so".store_path.origin]
+attr = "gsasl"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/libldap.so"]
+decision = "provide"
+file_entry_name = "/lib/libldap.so"
+kind = "symlink"
+resolution = "constant"
+
+["lib/libldap.so".store_path]
+hash = "0kqs3ak6mxxsgdlsgkwla8nnv0d7aggj"
+name = "openldap-2.6.3"
+store_dir = "/nix/store"
+
+["lib/libldap.so".store_path.origin]
+attr = "openldap"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/libpsl.so"]
+decision = "provide"
+file_entry_name = "/lib/libpsl.so"
+kind = "symlink"
+resolution = "constant"
+
+["lib/libpsl.so".store_path]
+hash = "pqaqhisbnv5kcl8vh5p8jh3qcxi7pkgf"
+name = "libpsl-0.21.2"
+store_dir = "/nix/store"
+
+["lib/libpsl.so".store_path.origin]
+attr = "libpsl"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/librtmp.so"]
+decision = "provide"
+file_entry_name = "/lib/librtmp.so"
+kind = "symlink"
+resolution = "constant"
+
+["lib/librtmp.so".store_path]
+hash = "sm7v04gsl1am5gawwwg4qcsvb86sxlpc"
+name = "rtmpdump-unstable-2021-02-19"
+store_dir = "/nix/store"
+
+["lib/librtmp.so".store_path.origin]
+attr = "rtmpdump"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/libzstd.so"]
+decision = "provide"
+file_entry_name = "/lib/libzstd.so"
+kind = "symlink"
+resolution = "constant"
+
+["lib/libzstd.so".store_path]
+hash = "clln53sqbfn8i0z8x0ji3x3fz6zchqml"
+name = "zstd-1.5.4"
+store_dir = "/nix/store"
+
+["lib/libzstd.so".store_path.origin]
+attr = "zstd"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/pkgconfig/libffi.pc"]
+decision = "provide"
+file_entry_name = "/lib/pkgconfig/libffi.pc"
+kind = "symlink"
+resolution = "constant"
+
+["lib/pkgconfig/libffi.pc".store_path]
+hash = "4j08mgygxhi9y3957hbwqn1bg02va18y"
+name = "libffi-3.4.4-dev"
+store_dir = "/nix/store"
+
+["lib/pkgconfig/libffi.pc".store_path.origin]
+attr = "libffi"
+output = "dev"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/pkgconfig/libidn2.pc"]
+decision = "provide"
+file_entry_name = "/lib/pkgconfig/libidn2.pc"
+kind = "symlink"
+resolution = "constant"
+
+["lib/pkgconfig/libidn2.pc".store_path]
+hash = "p4fifayvia0lgaqn53c0pj660lgs5x1w"
+name = "libidn2-2.3.2-dev"
+store_dir = "/nix/store"
+
+["lib/pkgconfig/libidn2.pc".store_path.origin]
+attr = "libidn2"
+output = "dev"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/pkgconfig/libnghttp2.pc"]
+decision = "provide"
+file_entry_name = "/lib/pkgconfig/libnghttp2.pc"
+kind = "symlink"
+resolution = "constant"
+
+["lib/pkgconfig/libnghttp2.pc".store_path]
+hash = "2pzj57pic3dgzx52jxj13lflrixrwh1i"
+name = "nghttp2-1.51.0-dev"
+store_dir = "/nix/store"
+
+["lib/pkgconfig/libnghttp2.pc".store_path.origin]
+attr = "python310Packages.nghttp2"
+output = "dev"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/pkgconfig/libnghttp3.pc"]
+decision = "provide"
+file_entry_name = "/lib/pkgconfig/libnghttp3.pc"
+kind = "symlink"
+resolution = "constant"
+
+["lib/pkgconfig/libnghttp3.pc".store_path]
+hash = "1g3bpy8mwpmmk2pb2anxx2dy9l1w73ii"
+name = "nghttp3-0.9.0-dev"
+store_dir = "/nix/store"
+
+["lib/pkgconfig/libnghttp3.pc".store_path.origin]
+attr = "nghttp3"
+output = "dev"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/pkgconfig/libngtcp2.pc"]
+decision = "provide"
+file_entry_name = "/lib/pkgconfig/libngtcp2.pc"
+kind = "symlink"
+resolution = "constant"
+
+["lib/pkgconfig/libngtcp2.pc".store_path]
+hash = "3i96dcbxhm1fdlb2y9xs0fsdp0n61v8y"
+name = "ngtcp2-0.13.0-dev"
+store_dir = "/nix/store"
+
+["lib/pkgconfig/libngtcp2.pc".store_path.origin]
+attr = "ngtcp2-gnutls"
+output = "dev"
+system = "x86_64-linux"
+toplevel = true
+
+["lib/pkgconfig/openssl.pc"]
+decision = "provide"
+file_entry_name = "/lib/pkgconfig/openssl.pc"
+kind = "symlink"
+resolution = "constant"
+
+["lib/pkgconfig/openssl.pc".store_path]
+hash = "fyiwac98bi86nd5qzz9bhvs1bvmmwgad"
+name = "openssl-3.0.8-dev"
+store_dir = "/nix/store"
+
+["lib/pkgconfig/openssl.pc".store_path.origin]
+attr = "openssl"
+output = "dev"
+system = "x86_64-linux"
+toplevel = true
+
+["share/aclocal/ax_zoneinfo.m4"]
+decision = "provide"
+file_entry_name = "/share/aclocal/ax_zoneinfo.m4"
+kind = "symlink"
+resolution = "constant"
+
+["share/aclocal/ax_zoneinfo.m4".store_path]
+hash = "0znwn1lw0268i7pj0rylhz9dnzbwijjn"
+name = "autoconf-archive-2022.09.03"
+store_dir = "/nix/store"
+
+["share/aclocal/ax_zoneinfo.m4".store_path.origin]
+attr = "autoconf-archive"
+output = "out"
+system = "x86_64-linux"
+toplevel = true
